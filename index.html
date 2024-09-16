@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>자스 필수패턴 9 - 배열을 반복</title>
+  </head>
+
+  <body>
+    <script>
+      const colors = ["red", "green", "blue"];
+      //console.log(colors[0]);
+      //console.log(colors[1]);
+      //console.log(colors[2]);
+
+      colors.forEach((data, index) => {
+        console.log(colors[index]);
+      });
+
+      for (const data of colors) console.log(data);
+    </script>
+  </body>
+</html>
